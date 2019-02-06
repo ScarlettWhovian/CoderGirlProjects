@@ -18,15 +18,15 @@ public class SandwichShop
         System.out.println("How many veggie sandwiches were sold today?");
         veggieSadwichesSold = keyboard.nextInt();
 
-		if (veggieSadwichesSold >= goalForVeggies)
+	if (veggieSadwichesSold >= goalForVeggies)
         {
             System.out.println("\nMade goal for veggies.");
         }
 
-		else
+	else
         {
 
-			System.out.println("\nFell short.");
+	    System.out.println("\nFell short.");
 	}
 
         int burgersSold;
@@ -41,7 +41,6 @@ public class SandwichShop
 
         else
         {
-
             System.out.println("\nFell short.");
         }
 
@@ -57,7 +56,6 @@ public class SandwichShop
 
         else
         {
-
             System.out.println("\nFell short.");
         }
 
@@ -73,7 +71,6 @@ public class SandwichShop
 
         else
         {
-
             System.out.println("\nFell short.");
         }
 
