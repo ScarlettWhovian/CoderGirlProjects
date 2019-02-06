@@ -2,8 +2,8 @@ package com.jetbrains;
 
 import java.util.Scanner;
 
-public class SandwichShop {
-
+public class SandwichShop 
+{
     public static void main(String[] args)
     {
 	    Scanner keyboard = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class SandwichShop {
         {
 
 			System.out.println("\nFell short.");
-		}
+	}
 
         int burgersSold;
         System.out.println("The sales goal for burgers is " + goalForBurgers);
