@@ -15,14 +15,15 @@ public class TemperatureCalculator
         System.out.println("\nThe data provided are: \n");
 
         for (int row = 0; row < grid.length; row++)
-    {
+        {   
         System.out.print(times[row]);
 
-        for (int column = 0; column < grid[row].length; column++) {
+        for (int column = 0; column < grid[row].length; column++) 
+        {
             System.out.print(grid[row][column] + ", ");
         }
         System.out.println();
-    }
+        }
         System.out.println("\nBased on that data, the following are the average temperatures for the week.\n");
 
         for (int d = 0; d < dowk.length; d++)
