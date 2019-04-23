@@ -4,21 +4,21 @@ public class TemperatureCalculator
 {
     public static void main(String[] args)
     {
-        int grid[][] = {{68, 70, 76, 70, 68, 71, 75},
+        int[][] grid = {{68, 70, 76, 70, 68, 71, 75},
                         {76, 76, 87, 84, 82, 75, 83},
                         {73, 72, 81, 78, 70, 73, 77},
                         {64, 65, 69, 68, 70, 74, 72}};
-        String times[] = {"7 AM: ", "3 pm: ", "7 PM: ", "3 AM: "};
-        String dowk[] = {"Sun: ", "Mon: ", "Tue: ", "Wed: ", "Thu: ", "Fri: ", "Sat: "};
+        String[] times = {"7 AM: ", "3 pm: ", "7 PM: ", "3 AM: "};
+        String[] dowk = {"Sun: ", "Mon: ", "Tue: ", "Wed: ", "Thu: ", "Fri: ", "Sat: "};
 
         System.out.println("Temperature Calculator");
         System.out.println("\nThe data provided are: \n");
 
         for (int row = 0; row < grid.length; row++)
-        {   
+        {
         System.out.print(times[row]);
 
-        for (int column = 0; column < grid[row].length; column++) 
+        for (int column = 0; column < grid[row].length; column++)
         {
             System.out.print(grid[row][column] + ", ");
         }
